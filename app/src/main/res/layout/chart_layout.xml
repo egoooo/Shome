@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/close"/>
+    <TextView
+        android:textSize="20.0sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图表" />
+    <TextView
+        android:background="#ff1296db"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginRight="10.0dip" />
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:id="@+id/chart">
+
+    </com.github.mikephil.charting.charts.LineChart>
+
+</LinearLayout>

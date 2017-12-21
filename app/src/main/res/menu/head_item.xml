@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/passw" android:id="@+id/setting" android:title="设置密码" />
+    <item android:icon="@android:drawable/ic_dialog_info" android:id="@+id/info" android:title="作者" />
+    <item android:icon="@android:drawable/ic_menu_day" android:id="@+id/email" android:title="情景模式" />
+    <item android:icon="@android:drawable/ic_input_get" android:id="@+id/news" android:title="家居新闻" />
+    <item android:icon="@android:drawable/ic_lock_power_off" android:id="@+id/logOut" android:title="退出登陆" />
+</menu>

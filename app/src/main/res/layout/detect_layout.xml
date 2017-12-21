@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7.0dip"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="1.0dip"
+            app:cardElevation="5.0dip"
+            app:contentPadding="5.0dip"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7.0dip">
+                <TextView
+                    android:textSize="20.0sp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="卧室" />
+                <TextView
+                    android:background="#ff1296db"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:layout_marginRight="10.0dip" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <newjohn.com.shome.ui.MyTempView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"/>
+                    <newjohn.com.shome.ui.MyHumView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7.0dip"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="1.0dip"
+            app:cardElevation="5.0dip"
+            app:contentPadding="5.0dip"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7.0dip">
+                <TextView
+                    android:textSize="20.0sp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="客厅" />
+                <TextView
+                    android:background="#ff1296db"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:layout_marginRight="10.0dip" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <newjohn.com.shome.ui.MyTempView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"/>
+                    <newjohn.com.shome.ui.MyHumView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7.0dip"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="1.0dip"
+            app:cardElevation="5.0dip"
+            app:contentPadding="5.0dip"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7.0dip">
+                <TextView
+                    android:textSize="20.0sp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="厨房" />
+                <TextView
+                    android:background="#ff1296db"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:layout_marginRight="10.0dip" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <newjohn.com.shome.ui.MyTempView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"/>
+                    <newjohn.com.shome.ui.MyHumView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7.0dip"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="1.0dip"
+            app:cardElevation="5.0dip"
+            app:contentPadding="5.0dip"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7.0dip">
+                <TextView
+                    android:textSize="20.0sp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="阳台" />
+                <TextView
+                    android:background="#ff1296db"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:layout_marginRight="10.0dip" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <newjohn.com.shome.ui.MyTempView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"/>
+                    <newjohn.com.shome.ui.MyHumView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="10dp"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</HorizontalScrollView>

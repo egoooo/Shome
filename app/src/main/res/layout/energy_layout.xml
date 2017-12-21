@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        >
+        <Button
+            android:id="@+id/begin"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="选择起始时间"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/button_background"
+            />
+        <Button
+            android:id="@+id/end"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="选择截止时间"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/button_background"
+            />
+        <Button
+            android:id="@+id/ok"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="确定"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/button_background"
+            />
+
+        <Button
+            android:id="@+id/tongji"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="统计"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/button_background"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#A7A5A5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <include
+        layout="@layout/item_layout"
+        android:id="@+id/table_title"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dip"
+        android:background="#686867"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <ListView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/list"
+        android:divider="#B4B3B3"
+        android:dividerHeight="1.0dip"
+        android:scrollbars="none"
+        android:background="@drawable/list_bg"
+        android:cacheColorHint="@android:color/transparent"
+        android:fadingEdge="none"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+
+</LinearLayout>

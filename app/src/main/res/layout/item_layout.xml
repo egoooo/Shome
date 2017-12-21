@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+
+    >
+    <TextView
+        android:id="@+id/device"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:singleLine="true"
+        android:text="设备" />
+
+    <View
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3"/>
+
+    <TextView
+        android:id="@+id/current"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:singleLine="true"
+        android:gravity="center"
+        android:text="电流" />
+
+    <View
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3"/>
+
+    <TextView
+        android:id="@+id/voltage"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:textColor="#000000"
+
+        android:singleLine="true"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="电压" />
+
+    <View
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3"/>
+
+    <TextView
+        android:id="@+id/power"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="功率" />
+
+    <View
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3"/>
+
+    <TextView
+        android:id="@+id/comsuption"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:singleLine="true"
+
+        android:gravity="center"
+        android:text="电量累计" />
+
+    <View
+        android:layout_width="1.5dip"
+        android:layout_height="fill_parent"
+        android:background="#B4B3B3"/>
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:singleLine="true"
+        android:textSize="15sp"
+        android:textColor="#000000"
+
+        android:gravity="center"
+        android:text="设备状态" />
+
+</LinearLayout>
